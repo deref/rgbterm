@@ -1,3 +1,12 @@
+# Fork
+
+This project is a fork from [Aybabtme](https://github.com/aybabtme/rgbterm).
+
+The only changes of note are the _removal_ of code. Specifically, the custom
+Writer implementations, which were not needed by Deref projects. In particular,
+the `InterpretingWriter` type, which had some associated module init logic
+that was in profiles and goroutine dumps.
+
 # RGB terminal
 
 Have you had enough of the same 16 colors in your terminal?

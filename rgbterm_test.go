@@ -2,7 +2,8 @@ package rgbterm_test
 
 import (
 	"fmt"
-	"github.com/aybabtme/rgbterm"
+
+	"github.com/deref/rgbterm"
 )
 
 func ExampleBytes() {
